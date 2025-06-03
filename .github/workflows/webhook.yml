@@ -13,4 +13,3 @@ jobs:
         uses: actions/checkout@v2
 
 
-        run: echo "Event of type: ${{ github.event_name }}"
