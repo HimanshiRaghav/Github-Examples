@@ -10,3 +10,4 @@ jobs:
         run: echo "Hello! {github.action}"
         env:
         MY_ACTION: ${{ github.action}}
+        MY_ACTOR: ${{ github.actor}}
